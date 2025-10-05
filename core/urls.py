@@ -6,3 +6,4 @@ urlpatterns = [
     path('announcements/', views.announcements_list, name='announcements_list'),
     path('announcements/<int:id>/', views.announcement_detail, name='announcement_detail'),
 ]
+
