@@ -11,7 +11,7 @@ announcements = [
     },
     {
         'id': 2,
-        'title': '🍵 Announcement #2: TeaTime Merch Incoming',
+        'title': TeaTime Merch Incoming',
         'date': 'Today',
         'content': "Big drip alert 🚨 We’re dropping limited-edition TeaTime merch next week — hoodies, mugs, and stickers that scream ‘I read announcements unironically.’",
         'full_content': "Big drip alert 🚨 We’re dropping limited-edition TeaTime merch next week — hoodies, mugs, and stickers that scream ‘I read announcements unironically.’\n\n🧵 Details:\n\nPre-orders open Monday at 9 AM\n\nFirst 50 get a free sticker pack\n\nWanna see the designs? Click ‘Read more’ and get the full tea. Don’t sleep on this — it’s giving cozy, it’s giving campus-core.\n\n— TeaTime"
