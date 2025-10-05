@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ announcement.title }} - My Site{% endblock %}
+
+{% block content %}
+<h2>{{ announcement.title }}</h2>
+<p><em>{{ announcement.date }}</em></p>
+
+<p id="short-content">{{ announcement.content }}</p>
+<p id="full-content" style="display:none;">{{ announcement.full_content }}</p>
+
+<button id="toggle-btn" onclick="toggleReadMore()">Read more</button>
+
+<script>
+function toggleReadMore() {
+    var shortContent = document.getElementById('short-content');
+    var fullContent = document.getElementById('full-content');
+    var btn = document.getElementById('toggle-btn');
+
+    if (fullContent.style.display === 'none') {
+        fullContent.style.display = 'block';
+        shortContent.style.display = 'none';
+        btn.textContent = 'Show less';
+    } else {
+        fullContent.style.display = 'none';
+        shortContent.style.display = 'block';
+        btn.textContent = 'Read more';
+    }
+}
+</script>
+{% endblock %}
