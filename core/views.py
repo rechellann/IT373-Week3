@@ -42,3 +42,4 @@ def announcement_detail(request, id):
     announcement = get_object_or_404(announcements, id=id)
     return render(request, 'announcement_detail.html', {'announcement': announcement})
 
+
