@@ -19,14 +19,14 @@ announcements = [
     {
         'id': 3,
         'title': 'Maintenance Notice',
-        'date': '2023-10-10',
+        'date': '2025-10-10',
         'content': 'Scheduled maintenance will occur on October 15th from 2 AM to 4 AM.',
         'full_content': 'Scheduled maintenance will occur on October 15th from 2 AM to 4 AM. During this time, the site may be unavailable. We apologize for any inconvenience. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
         'id': 4,
         'title': 'TeaTime is now live',
-        'date': '2023-10-15',
+        'date': '2025-10-15',
         'content': 'Hey bestie 👋 TeaTime is now live — your go-to spot for campus updates, class tea, and lowkey important stuff. We’re keeping it short, sweet, and scrollable. No cap.',
         'full_content': 'Hey bestie 👋 TeaTime is now live — your go-to spot for campus updates, class tea, and lowkey important stuff. We’re keeping it short, sweet, and scrollable. No cap.\n\n🔔 What’s brewing this week?\n\nMidterm schedules are out (don’t ghost your exams)\n\nOrg fair this Friday — come thru!\n\nNew prof just joined the CS dept (👀)\n\nClick any headline to sip the full story. And yeah, we’ve got a “Read more” toggle because we know your attention span is on TikTok time.\n\nStay steeped. Stay informed. — TeaTime Team'
     }
